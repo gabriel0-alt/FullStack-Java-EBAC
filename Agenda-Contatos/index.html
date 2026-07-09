@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="form" id="agenda">
+
+    <h1>Lista de contatos</h1>
+    <p>Adicione e gerencie seus contatos</p>
+
+    <form>
+        <h2>Nome</h2>
+        <input type="text" placeholder="Digite o Nome" required id="Nome-cadastro">
+
+        <h2>Telefone</h2>
+        <input type="tel" placeholder="(00) 00000-0000" required id="Telefone-cadastro">
+
+        <input type="submit" value="Adicionar Contatos" id="enviar">
+    </form>
+
+    <div class="lista">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Número</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="item">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table> 
+    </div>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
