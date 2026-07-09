@@ -1,0 +1,274 @@
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+      font-family: "Oswald", sans-serif;
+}
+
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header{
+    padding: 16px 0 8px;
+        border-bottom: 1px solid brown;
+          display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+header h1{
+    margin-left: 6em;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+  margin-right: 6em;
+}
+
+nav a {
+    color: #6F4E37;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: color .3s ease, background-color .3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #6F4E37;
+}
+
+.sobre img{
+    max-width: 320px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 64px 0;
+}
+
+
+.texto-sobre {
+  display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.texto-sobre h2{
+    border-bottom: 1px solid brown;
+}
+
+
+.container.produtos h2{
+    margin-bottom: 16px;
+    border-bottom: 1px solid brown;
+}
+
+.conteudo{
+    display: flex;
+    gap: 24px;
+
+}
+
+
+
+.conteudo button{
+    border-radius: 4px;
+
+}
+
+.conteudo a{
+   display: block;
+    max-width: 260px;
+    text-decoration: none;
+    color: #222;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transition: transform .3s ease, box-shadow .3s ease
+}
+
+.conteudo a img {
+    max-width: 240px ;
+    width: 100%;
+    display: block;
+    transition: transform .35s ease;
+}
+
+.conteudo a h3 {
+    padding: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.conteudo a .botao {
+    display: inline-block;
+    margin: 0 16px 16px;
+    padding: 12px 18px;
+    background: #111;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    transition: background .3s ease, transform .3s ease;
+}
+
+.conteudo a:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+}
+
+.conteudo a:hover img {
+    transform: scale(1.08);
+}
+
+.conteudo a:hover .botao {
+    background: #6F4E37;
+    transform: scale(1.03);
+}
+
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-left: 0;
+    }
+
+    header nav {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .sobre {
+        margin: 32px 0;
+    }
+
+    .sobre img {
+        max-width: 100%;
+    }
+
+     .conteudo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+
+    .conteudo a {
+        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo a img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+        .conteudo a h3 {
+        font-size: 0.85rem;
+        line-height: 1.3;
+        padding: 12px;
+    }
+
+        .conteudo a .botao {
+        display: block;
+        width: calc(100% - 24px);
+        margin: auto 12px 12px;
+        padding: 10px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-left: 0;
+    }
+
+    header nav {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .sobre {
+        flex-direction: column;
+        gap: 24px;
+        margin: 48px 0;
+    }
+
+    .sobre img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .conteudo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    .conteudo a {
+        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo a img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .conteudo a .botao {
+        display: block;
+        width: calc(100% - 32px);
+        margin: auto 16px 16px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
