@@ -1,0 +1,169 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+body {
+background-color: #063940;
+}
+
+.container {
+width: 1366px;
+margin: 0 auto;
+padding-left: 30px;
+}
+
+header {
+    width: 1520px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.fls h1{
+font-family: "Momo Trust Display", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+header h1 {
+font-size: 50px;
+color: #ece1c3;
+}
+
+nav{
+    flex: 1;
+}
+
+.menu {
+list-style: none;
+display: flex;
+justify-content: space-between; 
+align-items: center;
+width: 100%;
+padding: 0 20px;
+margin: 0;
+}
+
+.grupo-esquerda {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+header a {
+text-decoration: none;
+color: #ece1c3;
+font-size: 25px;
+}
+
+header img {
+height: 36px;
+}
+
+header i {
+    
+    font-size: 40px;
+    color: #ece1c3;
+cursor: pointer;
+
+}
+
+
+#emb img{
+height: 800px;
+border-radius: 20px;
+}
+
+
+#emb{
+    padding: 90px;
+}
+
+
+.sec1{
+    display: flex;
+}
+.sec1 img{
+    height: 450px;
+    border-radius: 20px;
+    padding: 5px
+}
+
+.container h2{
+font-size: 60px;
+color:#ece1c3;
+}
+
+i{
+    color: #ece1c3;
+}
+header i{ padding: 10px;}
+
+
+.snackbar{
+    display: flex;
+    padding: 10px;
+}
+
+.snackbar img{
+    height: 450px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.social-links{
+    margin-top: 30px;
+}
+
+.social-links img{
+height: 32px;
+}
+.social-links li{
+    margin: right 8px;
+    text-decoration: none;
+}
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+}
+
+form textarea{
+    resize: none;
+}
+
+.social-links h3{
+    font-size: 35px;
+    color: #ece1c3;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+
+.local h3{
+    font-size: 35px;
+    color: #8ebdb6;
+}
+
+.contact-methods h3{
+    color: #8ebdb6;
+    font-size: 30px;
+}
+
+#contacts{
+    color: #cfdcda;
+}
