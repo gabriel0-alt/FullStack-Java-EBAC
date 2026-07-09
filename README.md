@@ -1,0 +1,1 @@
+Exercises and projects developed during the EBAC Full Stack Development course.
