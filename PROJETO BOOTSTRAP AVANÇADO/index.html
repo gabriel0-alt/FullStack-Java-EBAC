@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        section{
+           min-height: 80vh;
+   
+                padding:50px 0 ;
+        }
+               .carousel-item img{
+    width: 100%;
+    height: 60vh;
+     object-fit: cover;
+     border-radius: 10px;
+}
+header{
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            z-index: 1000;
+        }
+         .navbar-nav .nav-link.active{
+            color: rgb(0, 135, 253);
+        }
+
+.tab-pane img{
+        width: 100%;
+    height: 60vh;
+     object-fit: cover;
+     border-radius: 10px;
+}
+
+body{
+    background-color: #f8f4ef;
+    color: #4e342e;
+}
+
+header{
+    background-color: #4e342e;
+    color: #fff;
+}
+
+.nav-link{
+    color: #d7ccc8;
+    transition: .3s;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: #6d4c41;
+    color: #fff;
+    border-radius: 6px;
+}
+
+h2{
+    color:#5d4037;
+    font-weight:bold;
+}
+
+h3{
+    color:#795548;
+}
+
+.nav-tabs .nav-link{
+    color:#5d4037;
+}
+
+.nav-tabs .nav-link.active{
+    background-color:#6d4c41;
+    color:white;
+    border-color:#6d4c41;
+}
+
+.card{
+    border:none;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 .75rem 1.5rem rgba(0,0,0,.15);
+}
+
+.card-title{
+    color:#5d4037;
+    font-weight:bold;
+}
+
+.subtitle-card{
+    font-size:1rem;
+    color:#8d6e63;
+}
+
+.btn-comprar{
+    background:#6d4c41;
+    color:white;
+}
+
+.btn-comprar:hover{
+    background:#4e342e;
+    color:white;
+}
+
+footer{
+    background:#4e342e;
+    color:white;
+}
+
+textarea{
+    resize: none;
+}
+
+    </style>
+    <title>Essência do Grão</title>
+</head>
+<body>
+        <header id="cabecalho" >
+
+            <h1 class="p-4">Essência do Grão</h1>
+
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                
+                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-center" id="menu">
+                    <ul class="navbar-nav pills">
+             <li class="nav-item"><a href="#inicio" class="nav-link active"> Início </a></li>
+             <li class="nav-item"><a href="#historia" class="nav-link"> Nossa História </a></li>
+             <li class="nav-item"><a href="#cardapio" class="nav-link"> Cardápio </a></li>
+             <li class="nav-item"><a href="#contato" class="nav-link"> Contato </a></li>
+                </ul>
+                </nav>
+            </div>
+            </div>
+        </header>
+
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+<div class="container">
+
+    <section id="inicio">
+        <h2 class="mb-5"> Início</h2>
+<div class="carousel carousel-fade slide" data-bs-ride="carousel" class="my-4" id="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000" >  <img src="Fotos/dimaliss-street-cafe-4472312.jpg"  alt="" class="img-fluid rounded shadow "  > </div>
+        <div class="carousel-item" data-bs-interval="2000" > <img src="Fotos/grafmex-coffee-3120750.jpg" alt="" class="img-fluid rounded shadow "  >  </div>
+        <div class="carousel-item" data-bs-interval="2000" >  <img src="Fotos/christoph-coffee-171653.jpg" alt="" class="img-fluid rounded shadow "  > </div>
+    
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" ></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+
+        
+        </div>
+    </div>
+    
+</div>
+<h2 class="mt-4">
+    Bem-Vindo ao Café Essência do Grão
+</h2>
+<p class="lead mb-4">Descubra o sabor dos nossos cafés especiais, preparados com grãos selecionados e acompanhados por doces e salgados artesanais. Um ambiente acolhedor para tornar cada momento ainda mais especial.</p>
+    </section>
+    <section id="historia">
+     <div class="row align-items-center">
+           <div class="col-md-6">
+            <h2>Nossa História</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit ut consequatur tempore voluptas minima amet aliquid facere distinctio, recusandae a sit, sapiente at temporibus quia, veniam nihil? Vel, perspiciatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, tenetur consequuntur! Quas expedita suscipit odio dolor corporis quisquam, exercitationem ullam soluta temporibus dignissimos voluptate inventore omnis, debitis veritatis, consectetur praesentium.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui impedit et omnis corporis praesentium expedita distinctio, magnam eos quas natus blanditiis dicta reprehenderit, illum animi eum aut minus. Qui, suscipit.</p>        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo nisi dolore incidunt repellendus dolores amet adipisci, id est voluptatum quos, iure ratione exercitationem dicta ut ipsa fugit, eaque vel consequuntur?</p>    
+    </div>
+        
+        <div class="col-md-6">
+            <img src="Fotos/grafmex-coffee-3120750.jpg" alt="" class="img-fluid rounded shadow">
+        </div>
+     
+     </div>
+    </section>
+    <section id="cardapio">     
+        <h2 class="mb-4">Cardápio</h2>
+        <div class="container">
+            <nav class="nav nav-tabs mb-5">
+                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button"> Bebidas </button>
+                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button"> Salgados</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button"> Doces </button>
+            </nav>
+            <div class="tab-content">
+
+<div class="tab-pane active" id="aba1">
+<div class="row g-4">                    
+                  <h3>Bebidas</h3>
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text-dark">
+                    <img src="Fotos/cedarcreation-coffee-7561288.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Café Tradicional</h4>
+                    <h3 class="subtitle-card">  Intenso e Marcante  </h3>
+                    <p class="card-text">Café espresso preparado com grãos selecionados, ideal para quem aprecia um sabor forte e aromático.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>  
+</div>
+ 
+
+<div class="col-12 col-md-6 col-lg-4"> <div class="card text">
+                  
+                    <img src="Fotos/the_iop-latte-9366234.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Cappuccino Cremoso</h4>
+                    <h3 class="subtitle-card">  Cremosidade em Cada Gole </h3>
+                    <p class="card-text">Combinação de espresso, leite vaporizado e espuma cremosa com um toque de canela.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div></div>
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/rajdeepcraft-coffee-5893926.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Café Gelado</h4>
+                    <h3 class="subtitle-card">  Refrescante e Aromático </h3>
+                    <p class="card-text">Café servido com gelo e um toque especial para quem busca sabor e refrescância.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div></div>
+
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/epochalstock-filthy-chai-latte-10221337.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Latte Artesanal</h4>
+                    <h3 class="subtitle-card">  Suave e Equilibrado </h3>
+                    <p class="card-text">Espresso encorpado servido com leite vaporizado, proporcionando uma bebida leve e aconchegante.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/ys-park-cafe-mocha-1063007.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Mocha Especial </h4>
+                    <h3 class="subtitle-card"> Café com Chocolate </h3>
+                    <p class="card-text">A união perfeita entre espresso, chocolate e leite vaporizado, finalizada com chantilly.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/rfera-drink-3882350.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Chocolate Quente</h4>
+                    <h3 class="subtitle-card">  Doce Conforto  </h3>
+                    <p class="card-text">Chocolate cremoso preparado com leite e cacau, perfeito para os dias mais frios.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+</div>
+</div>
+
+                 <div class="tab-pane" id="aba2">
+                    
+                    <h3 class="mb-4 mt-3">Salgados</h3>
+
+
+<div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/gregorio33rep-cheese-bread-3862706.jpg">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Pão de Queijo</h4>
+                    <h3 class="subtitle-card">  Tradicional Mineiro  </h3>
+                    <p class="card-text">Pão de queijo artesanal com casquinha crocante e interior macio.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/tee2tee-croissant-2223561_1920.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Croissant de Presunto e Queijo </h4>
+                    <h3 class="subtitle-card">  Recheio Generoso </h3>
+                    <p class="card-text">Massa folhada amanteigada recheada com presunto e queijo derretido.</p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/tehzeebrokhri-chicken-10366196_1920.jpg" alt="">
+                    <div class="card-body"> w
+                        <h4 class="card-title"> Quiche</h4>
+                    <h3 class="subtitle-card">  Massa Crocante  </h3>
+                    <p class="card-text"> Quiche artesanal com recheio cremoso de queijo, alho-poró ou legumes. </p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/mandarinmd-sandwich-2408026_1920.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Sanduíche Natural</h4>
+                    <h3 class="subtitle-card"> Leve e Fresco </h3>
+                    <p class="card-text"> Pão macio recheado com ingredientes frescos e um toque especial da casa. </p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                    <img src="Fotos/tehzeebkazmii-chicken-wrap-10363278_1920.jpg" alt="">
+                    <div class="card-body"> 
+                        <h4 class="card-title"> Wrap De Frango</h4>
+                    <h3 class="subtitle-card">  Leve e Saboroso </h3>
+                    <p class="card-text"> Tortilha recheada com frango desfiado, alface, tomate e molho especial. </p>
+                    <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                        <img src="Fotos/hoaluu-pizza-2589575_1920.jpg" alt="">
+                        <div class="card-body"> 
+                            <h4 class="card-title"> Pizza Artesanal </h4>
+                        <h3 class="subtitle-card">  Massa Leve e Crocante  </h3>
+                        <p class="card-text"> Fatia de pizza preparada com massa artesanal, molho de tomate, queijo derretido e ingredientes selecionados, assada diariamente para garantir sabor e qualidade.</p>
+                        <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+</div>
+
+
+
+                </div>
+
+                 <div class="tab-pane" id="aba3">
+                    <h3 class="mb-4 mt-3"> Doces</h3>
+                    <div class="row g-4">
+                        
+                        <div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                        <img src="Fotos/pape_photoart-cookie-4245030_1920.jpg" alt="">
+                        <div class="card-body"> 
+                            <h4 class="card-title">  Cookie da Casa</h4>
+                        <h3 class="subtitle-card"> Crocante e Macio </h3>
+                        <p class="card-text"> Cookie artesanal recheado com gotas de chocolate e sabor amanteigado. </p>
+                        <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                        <img src="Fotos/martinl21-red-velvet-cake-4917734_1920.jpg" alt="">
+                        <div class="card-body"> 
+                            <h4 class="card-title"> Red Velvet </h4>
+                        <h3 class="subtitle-card"> Elegância em Fatias </h3>
+                        <p class="card-text"> Bolo de massa aveludada com recheio e cobertura de cream cheese, leve e irresistível. </p>
+                        <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                        <img src="Fotos/dohnalovajane-donut-5331966_1920.jpg" alt="">
+                        <div class="card-body"> 
+                            <h4 class="card-title"> Donut Artesanal </h4>
+                        <h3 class="subtitle-card">Cobertura Especial </h3>
+                        <p class="card-text"> Donut macio coberto com chocolate, confeitos ou glacê, preparado diariamente. </p>
+                        <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                        <img src="Fotos/lucasampaio-tartlet-2147173_1920.jpg" alt="">
+                        <div class="card-body"> 
+                            <h4 class="card-title"> Torta de Limão </h4>
+                        <h3 class="subtitle-card"> Leve e Refrescante </h3>
+                        <p class="card-text"> Massa crocante, creme de limão e cobertura de merengue delicadamente dourado. </p>
+                        <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                        <img src="Fotos/misssuki-chocolate-cake-3689088_1920.jpg" alt="">
+                        <div class="card-body"> 
+                            <h4 class="card-title"> Brownie Artesanal </h4>
+                        <h3 class="subtitle-card">  Macio por Dentro</h3>
+                        <p class="card-text"> Brownie de chocolate intenso com casquinha crocante e interior úmido.  </p>
+                        <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    <div class="card text">
+                  
+                        <img src="Fotos/sylwiaaptacy-cake-786703.jpg" alt="">
+                        <div class="card-body"> 
+                            <h4 class="card-title">Cheesecake  </h4>
+                        <h3 class="subtitle-card">  Clássico Irresistível</h3>
+                        <p class="card-text"> ase crocante com creme de queijo suave e cobertura de frutas vermelhas. </p>
+                        <a href="#" class="btn btn-comprar"> Pedir Agora</a>
+                    </div>
+                </div>
+</div>
+
+                    </div>
+
+
+                </div>
+
+                
+    
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+      <div class="container">
+
+          <div class="row g-4 align-items-start">
+
+        <div class="col-md-5">
+            <h4>Entre em Contato</h4>
+            <p>
+                Será um prazer receber sua visita ou responder às suas dúvidas.
+                Venha conhecer o sabor e o ambiente acolhedor da <strong>Essência do Grão</strong>.
+            </p>
+
+            <p><strong>📍 Endereço:</strong><br>
+            Rua das Flores, 123 – Centro</p>
+
+            <p><strong>📞 Telefone:</strong><br>
+            (21) 99999-9999</p>
+
+            <p><strong>✉️ E-mail:</strong><br>
+            contato@essenciadograo.com</p>
+
+            <p><strong>🕒 Horário de Funcionamento:</strong><br>
+            Segunda a Sexta: 08h às 20h<br>
+            Sábado: 09h às 18h<br>
+            Domingo: 09h às 14h</p>
+        </div>
+
+        <div class="col-md-7">
+            <h4>Envie uma Mensagem</h4>
+
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="assunto" class="form-label">Assunto</label>
+                    <input type="text" class="form-control" id="assunto" placeholder="Assunto da mensagem">
+                </div>
+
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark">
+                    Enviar Mensagem
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+
+
+</div>
+            
+           </div>
+            
+          
+                
+    </section>
+
+
+</div>
+
+        </div>
+
+
+
+            
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
